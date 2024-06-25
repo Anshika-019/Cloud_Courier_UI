@@ -1,0 +1,53 @@
+.field{
+   width: 100%;
+   margin-bottom: 10px;
+}
+.card{
+    padding: 10px;
+    margin: 95px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(190, 197, 195);
+    width:auto !important;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card h1{
+    text-align: center;
+
+}
+.card-title{
+    border: black;
+    font-style: italic;
+    color: rgb(2, 86, 55);
+}
+
+.to-style{
+    color: rgb(2, 86, 55);
+    border-color: rgb, rgb(6, 84, 59);
+    border-color: rgb(6, 84, 59);
+    
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: rgb(13, 159, 113);
+}
+input.mat-input-element {
+  color: rgb(13, 150, 118);
+}
+.text-center{
+    text-align: center;
+    
+}
+
+.card button{
+    margin: 5px;
+    width: 100px;
+}
+:host::ng-deep .mat-form-field-input:-internal-autofill-selected {
+    background-color: none !important;
+}
